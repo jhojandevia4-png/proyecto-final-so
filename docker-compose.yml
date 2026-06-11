@@ -1,0 +1,12 @@
+services:
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    ports:
+      - "8080:80"
+
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
