@@ -62,4 +62,6 @@ Grupo 8 - Proyecto Final de Sistemas Operativos
 ## Video demostrativo
 
 Video del proyecto:
-https://youtube.com/tu-enlace-aqui
+https://youtu.be/tbrOP_aot8c
+<img width="512" height="81" alt="image" src="https://github.com/user-attachments/assets/23e7c62c-a511-4505-93c1-196127c65cde" />
+
