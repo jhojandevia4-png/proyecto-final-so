@@ -1,20 +1,140 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Componentes</title>
+<meta charset="UTF-8">
+<title>Componentes - Grupo 8</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#eef2f7;
+    margin:0;
+}
+
+header{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    background:#0055aa;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+.contenedor{
+    width:85%;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 0px 10px gray;
+}
+
+h2{
+    color:#003366;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#003366;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #ccc;
+    padding:12px;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+</style>
+
 </head>
+
 <body>
-  
 
-<h1>Componentes del Proyecto</h1>
+<header>
+<h1>Proyecto Final de Sistemas Operativos</h1>
+<p>Grupo 8</p>
+</header>
 
+<nav>
+<a href="index.html">Inicio</a>
+<a href="equipo.html">Equipo</a>
+<a href="componentes.html">Componentes</a>
+<a href="conclusiones.html">Conclusiones</a>
+</nav>
 
-<h2>Ccomponente 1: Nginx</h2>
-<p>Servidor web utilizado para publicar el sitio web HTML.</p>
+<div class="contenedor">
 
+<h2>Componentes Utilizados</h2>
 
-<h2>Componente 2: Python</h2>
-<p>Servicio backend ejecutado mediante contenedor Docker.</p>
+<table>
+
+<tr>
+<th>Componente</th>
+<th>Descripción</th>
+</tr>
+
+<tr>
+<td>Ubuntu 24.04 LTS</td>
+<td>Sistema operativo utilizado para el desarrollo del proyecto.</td>
+</tr>
+
+<tr>
+<td>Docker</td>
+<td>Plataforma para crear y ejecutar contenedores.</td>
+</tr>
+
+<tr>
+<td>Docker Compose</td>
+<td>Herramienta para administrar múltiples contenedores.</td>
+</tr>
+
+<tr>
+<td>Kubernetes</td>
+<td>Orquestador de contenedores para despliegue y administración.</td>
+</tr>
+
+<tr>
+<td>Minikube</td>
+<td>Entorno local de Kubernetes.</td>
+</tr>
+
+<tr>
+<td>Nginx</td>
+<td>Servidor web para publicar el sitio HTML.</td>
+</tr>
+
+<tr>
+<td>Git y GitHub</td>
+<td>Control de versiones y almacenamiento del proyecto.</td>
+</tr>
+
+</table>
+
+</div>
 
 </body>
 </html>
