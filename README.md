@@ -59,3 +59,7 @@ Proyecto gestionado mediante Git y GitHub para control de versiones y trabajo co
 ## Grupo
 
 Grupo 8 - Proyecto Final de Sistemas Operativos
+## Video demostrativo
+
+Video del proyecto:
+https://youtube.com/tu-enlace-aqui
